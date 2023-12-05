@@ -1,0 +1,2364 @@
+{
+  "version": "1.2.0-beta.0",
+  "graph": {
+    "nodes": [
+      {
+        "id": "n0",
+        "position": {
+          "x": 34.35350323653445,
+          "y": -29.636694621981786
+        },
+        "caption": "track_name"
+      },
+      {
+        "id": "n1",
+        "position": {
+          "x": 522.186346638327,
+          "y": -29.636694621981786
+        },
+        "caption": "artist_name"
+      },
+      {
+        "id": "n2",
+        "position": {
+          "x": 522.186346638327,
+          "y": -180.14842749101646
+        },
+        "caption": "artist_count"
+      },
+      {
+        "id": "n3",
+        "position": {
+          "x": 466.35879527472474,
+          "y": -301.6773027739918
+        },
+        "caption": "released_year"
+      },
+      {
+        "id": "n4",
+        "position": {
+          "x": 377.92187646344985,
+          "y": -407.25480561631497
+        },
+        "caption": "released_month"
+      },
+      {
+        "id": "n5",
+        "position": {
+          "x": 285.4606449882178,
+          "y": -474.1362651437289
+        },
+        "caption": "released_day"
+      },
+      {
+        "id": "n6",
+        "position": {
+          "x": 167.46796055125998,
+          "y": -522.5009823184263
+        },
+        "caption": "in_spotify_playlists"
+      },
+      {
+        "id": "n7",
+        "position": {
+          "x": 34.35350323653445,
+          "y": -540.16060672867
+        },
+        "caption": "in_spotify_charts"
+      },
+      {
+        "id": "n8",
+        "position": {
+          "x": -98.76095407819138,
+          "y": -522.5009823184263
+        },
+        "caption": "streams"
+      },
+      {
+        "id": "n9",
+        "position": {
+          "x": -216.7536385151488,
+          "y": -474.1362651437289
+        },
+        "caption": "in_apple_playlists"
+      },
+      {
+        "id": "n10",
+        "position": {
+          "x": -328.8478312433303,
+          "y": -388.4116316852652
+        },
+        "caption": "in_apple_charts"
+      },
+      {
+        "id": "n11",
+        "position": {
+          "x": -405.57018958308487,
+          "y": -279.13209417024416
+        },
+        "caption": "in_deezer_playlist"
+      },
+      {
+        "id": "n12",
+        "position": {
+          "x": -453.94322001664676,
+          "y": -161.34516040912848
+        },
+        "caption": "in_deezer_charts"
+      },
+      {
+        "id": "n13",
+        "position": {
+          "x": -476.17040887015384,
+          "y": -29.636694621981786
+        },
+        "caption": "in_shazam_charts"
+      },
+      {
+        "id": "n14",
+        "position": {
+          "x": -453.94322001664676,
+          "y": 102.07177116516483
+        },
+        "caption": "bpm"
+      },
+      {
+        "id": "n15",
+        "position": {
+          "x": -405.57018958308487,
+          "y": 229.40347471217152
+        },
+        "caption": "key"
+      },
+      {
+        "id": "n16",
+        "position": {
+          "x": -322.1031623415339,
+          "y": 329.1382424413016
+        },
+        "caption": "mode"
+      },
+      {
+        "id": "n17",
+        "position": {
+          "x": -206.89521013988997,
+          "y": 414.8628758997653
+        },
+        "caption": "danceability"
+      },
+      {
+        "id": "n18",
+        "position": {
+          "x": -60.0511791498557,
+          "y": 467.22200344349704
+        },
+        "caption": "valence"
+      },
+      {
+        "id": "n19",
+        "position": {
+          "x": 128.75818562292432,
+          "y": 467.22200344349704
+        },
+        "caption": "energy"
+      },
+      {
+        "id": "n20",
+        "position": {
+          "x": 285.4606449882177,
+          "y": 414.8628758997653
+        },
+        "caption": "acusticness"
+      },
+      {
+        "id": "n21",
+        "position": {
+          "x": 397.55483771639916,
+          "y": 329.1382424413016
+        },
+        "caption": "instumental"
+      },
+      {
+        "id": "n22",
+        "position": {
+          "x": 474.2771960561537,
+          "y": 229.40347471217152
+        },
+        "caption": "liveness"
+      },
+      {
+        "id": "n23",
+        "position": {
+          "x": 522.186346638327,
+          "y": 103.77967168410503
+        },
+        "caption": "speechiness"
+      }
+    ],
+    "relationships": [
+      {
+        "id": "n0",
+        "type": "artistas",
+        "fromId": "n1",
+        "toId": "n0"
+      },
+      {
+        "id": "n1",
+        "type": "numero_artistas",
+        "fromId": "n0",
+        "toId": "n2"
+      },
+      {
+        "id": "n2",
+        "type": "año",
+        "fromId": "n0",
+        "toId": "n3"
+      },
+      {
+        "id": "n3",
+        "type": "mes",
+        "fromId": "n0",
+        "toId": "n4"
+      },
+      {
+        "id": "n4",
+        "type": "dia",
+        "fromId": "n0",
+        "toId": "n5"
+      },
+      {
+        "id": "n5",
+        "type": "listas_reproduccion_spotify",
+        "fromId": "n0",
+        "toId": "n6"
+      },
+      {
+        "id": "n6",
+        "type": "presencia_spotify",
+        "fromId": "n0",
+        "toId": "n7"
+      },
+      {
+        "id": "n7",
+        "type": "transmisiones",
+        "fromId": "n0",
+        "toId": "n8"
+      },
+      {
+        "id": "n8",
+        "type": "listas_reproduccion_apple",
+        "fromId": "n0",
+        "toId": "n9"
+      },
+      {
+        "id": "n9",
+        "type": "presencia_apple",
+        "fromId": "n0",
+        "toId": "n10"
+      },
+      {
+        "id": "n10",
+        "type": "listas_reproduccion_deezer",
+        "fromId": "n0",
+        "toId": "n11"
+      },
+      {
+        "id": "n11",
+        "type": "presencia_deezer",
+        "fromId": "n0",
+        "toId": "n12"
+      },
+      {
+        "id": "n12",
+        "type": "presencia_shazam",
+        "fromId": "n0",
+        "toId": "n13"
+      },
+      {
+        "id": "n13",
+        "type": "bpm",
+        "fromId": "n0",
+        "toId": "n14"
+      },
+      {
+        "id": "n14",
+        "type": "key",
+        "fromId": "n0",
+        "toId": "n15"
+      },
+      {
+        "id": "n15",
+        "type": "mode",
+        "fromId": "n0",
+        "toId": "n16"
+      },
+      {
+        "id": "n16",
+        "type": "Bailable",
+        "fromId": "n0",
+        "toId": "n17"
+      },
+      {
+        "id": "n17",
+        "type": "positividad",
+        "fromId": "n0",
+        "toId": "n18"
+      },
+      {
+        "id": "n18",
+        "type": "energia",
+        "fromId": "n0",
+        "toId": "n19"
+      },
+      {
+        "id": "n19",
+        "type": "acusticos",
+        "fromId": "n0",
+        "toId": "n20"
+      },
+      {
+        "id": "n20",
+        "type": "instrumental",
+        "fromId": "n0",
+        "toId": "n21"
+      },
+      {
+        "id": "n21",
+        "type": "actuacion_vivo",
+        "fromId": "n0",
+        "toId": "n22"
+      },
+      {
+        "id": "n22",
+        "type": "palabras",
+        "fromId": "n0",
+        "toId": "n23"
+      }
+    ]
+  },
+  "dataModel": {
+    "version": "1.2.0-beta.0",
+    "graphSchemaRepresentation": {
+      "version": "1.0.0",
+      "graphSchema": {
+        "nodeLabels": [
+          {
+            "$id": "nl:n0",
+            "token": "track_name"
+          },
+          {
+            "$id": "nl:n1",
+            "token": "artist_name"
+          },
+          {
+            "$id": "nl:n2",
+            "token": "artist_count"
+          },
+          {
+            "$id": "nl:n3",
+            "token": "released_year"
+          },
+          {
+            "$id": "nl:n4",
+            "token": "released_month"
+          },
+          {
+            "$id": "nl:n5",
+            "token": "released_day"
+          },
+          {
+            "$id": "nl:n6",
+            "token": "in_spotify_playlists"
+          },
+          {
+            "$id": "nl:n7",
+            "token": "in_spotify_charts"
+          },
+          {
+            "$id": "nl:n8",
+            "token": "streams"
+          },
+          {
+            "$id": "nl:n9",
+            "token": "in_apple_playlists"
+          },
+          {
+            "$id": "nl:n10",
+            "token": "in_apple_charts"
+          },
+          {
+            "$id": "nl:n11",
+            "token": "in_deezer_playlist"
+          },
+          {
+            "$id": "nl:n12",
+            "token": "in_deezer_charts"
+          },
+          {
+            "$id": "nl:n13",
+            "token": "in_shazam_charts"
+          },
+          {
+            "$id": "nl:n14",
+            "token": "bpm"
+          },
+          {
+            "$id": "nl:n15",
+            "token": "key"
+          },
+          {
+            "$id": "nl:n16",
+            "token": "mode"
+          },
+          {
+            "$id": "nl:n17",
+            "token": "danceability"
+          },
+          {
+            "$id": "nl:n18",
+            "token": "valence"
+          },
+          {
+            "$id": "nl:n19",
+            "token": "energy"
+          },
+          {
+            "$id": "nl:n20",
+            "token": "acusticness"
+          },
+          {
+            "$id": "nl:n21",
+            "token": "instumental"
+          },
+          {
+            "$id": "nl:n22",
+            "token": "liveness"
+          },
+          {
+            "$id": "nl:n23",
+            "token": "speechiness"
+          }
+        ],
+        "relationshipTypes": [
+          {
+            "$id": "rt:n0",
+            "token": "artistas"
+          },
+          {
+            "$id": "rt:n1",
+            "token": "numero_artistas"
+          },
+          {
+            "$id": "rt:n2",
+            "token": "año"
+          },
+          {
+            "$id": "rt:n3",
+            "token": "mes"
+          },
+          {
+            "$id": "rt:n4",
+            "token": "dia"
+          },
+          {
+            "$id": "rt:n5",
+            "token": "listas_reproduccion_spotify"
+          },
+          {
+            "$id": "rt:n6",
+            "token": "presencia_spotify"
+          },
+          {
+            "$id": "rt:n7",
+            "token": "transmisiones"
+          },
+          {
+            "$id": "rt:n8",
+            "token": "listas_reproduccion_apple"
+          },
+          {
+            "$id": "rt:n9",
+            "token": "presencia_apple"
+          },
+          {
+            "$id": "rt:n10",
+            "token": "listas_reproduccion_deezer"
+          },
+          {
+            "$id": "rt:n11",
+            "token": "presencia_deezer"
+          },
+          {
+            "$id": "rt:n12",
+            "token": "presencia_shazam"
+          },
+          {
+            "$id": "rt:n13",
+            "token": "bpm"
+          },
+          {
+            "$id": "rt:n14",
+            "token": "key"
+          },
+          {
+            "$id": "rt:n15",
+            "token": "mode"
+          },
+          {
+            "$id": "rt:n16",
+            "token": "Bailable"
+          },
+          {
+            "$id": "rt:n17",
+            "token": "positividad"
+          },
+          {
+            "$id": "rt:n18",
+            "token": "energia"
+          },
+          {
+            "$id": "rt:n19",
+            "token": "acusticos"
+          },
+          {
+            "$id": "rt:n20",
+            "token": "instrumental"
+          },
+          {
+            "$id": "rt:n21",
+            "token": "actuacion_vivo"
+          },
+          {
+            "$id": "rt:n22",
+            "token": "palabras"
+          }
+        ],
+        "nodeObjectTypes": [
+          {
+            "$id": "n:n0",
+            "labels": [
+              {
+                "$ref": "#nl:n0"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:1",
+                "token": "track_name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n1",
+            "labels": [
+              {
+                "$ref": "#nl:n1"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:2",
+                "token": "artist(s)_name",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n2",
+            "labels": [
+              {
+                "$ref": "#nl:n2"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:3",
+                "token": "artist_count",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n3",
+            "labels": [
+              {
+                "$ref": "#nl:n3"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:4",
+                "token": "released_year",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n4",
+            "labels": [
+              {
+                "$ref": "#nl:n4"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:5",
+                "token": "released_month",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n5",
+            "labels": [
+              {
+                "$ref": "#nl:n5"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:6",
+                "token": "released_day",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n6",
+            "labels": [
+              {
+                "$ref": "#nl:n6"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:7",
+                "token": "in_spotify_playlists",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n7",
+            "labels": [
+              {
+                "$ref": "#nl:n7"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:8",
+                "token": "in_spotify_charts",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n8",
+            "labels": [
+              {
+                "$ref": "#nl:n8"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:9",
+                "token": "streams",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n9",
+            "labels": [
+              {
+                "$ref": "#nl:n9"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:10",
+                "token": "in_apple_playlists",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n10",
+            "labels": [
+              {
+                "$ref": "#nl:n10"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:11",
+                "token": "in_apple_charts",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n11",
+            "labels": [
+              {
+                "$ref": "#nl:n11"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:12",
+                "token": "in_deezer_playlists",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n12",
+            "labels": [
+              {
+                "$ref": "#nl:n12"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:13",
+                "token": "in_deezer_charts",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n13",
+            "labels": [
+              {
+                "$ref": "#nl:n13"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:14",
+                "token": "in_shazam_charts",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n14",
+            "labels": [
+              {
+                "$ref": "#nl:n14"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:15",
+                "token": "bpm",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n15",
+            "labels": [
+              {
+                "$ref": "#nl:n15"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:16",
+                "token": "key",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n16",
+            "labels": [
+              {
+                "$ref": "#nl:n16"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:17",
+                "token": "mode",
+                "type": {
+                  "type": "string"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n17",
+            "labels": [
+              {
+                "$ref": "#nl:n17"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:18",
+                "token": "danceability_%",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n18",
+            "labels": [
+              {
+                "$ref": "#nl:n18"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:19",
+                "token": "valence_%",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n19",
+            "labels": [
+              {
+                "$ref": "#nl:n19"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:20",
+                "token": "energy_%",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n20",
+            "labels": [
+              {
+                "$ref": "#nl:n20"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:21",
+                "token": "acousticness_%",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n21",
+            "labels": [
+              {
+                "$ref": "#nl:n21"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:22",
+                "token": "instrumentalness_%",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n22",
+            "labels": [
+              {
+                "$ref": "#nl:n22"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:23",
+                "token": "liveness_%",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          },
+          {
+            "$id": "n:n23",
+            "labels": [
+              {
+                "$ref": "#nl:n23"
+              }
+            ],
+            "properties": [
+              {
+                "$id": "p:24",
+                "token": "speechiness_%",
+                "type": {
+                  "type": "integer"
+                },
+                "nullable": true
+              }
+            ]
+          }
+        ],
+        "relationshipObjectTypes": [
+          {
+            "$id": "r:n0",
+            "type": {
+              "$ref": "#rt:n0"
+            },
+            "from": {
+              "$ref": "#n:n1"
+            },
+            "to": {
+              "$ref": "#n:n0"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n1",
+            "type": {
+              "$ref": "#rt:n1"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n2"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n2",
+            "type": {
+              "$ref": "#rt:n2"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n3"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n3",
+            "type": {
+              "$ref": "#rt:n3"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n4"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n4",
+            "type": {
+              "$ref": "#rt:n4"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n5"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n5",
+            "type": {
+              "$ref": "#rt:n5"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n6"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n6",
+            "type": {
+              "$ref": "#rt:n6"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n7"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n7",
+            "type": {
+              "$ref": "#rt:n7"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n8"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n8",
+            "type": {
+              "$ref": "#rt:n8"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n9"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n9",
+            "type": {
+              "$ref": "#rt:n9"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n10"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n10",
+            "type": {
+              "$ref": "#rt:n10"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n11"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n11",
+            "type": {
+              "$ref": "#rt:n11"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n12"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n12",
+            "type": {
+              "$ref": "#rt:n12"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n13"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n13",
+            "type": {
+              "$ref": "#rt:n13"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n14"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n14",
+            "type": {
+              "$ref": "#rt:n14"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n15"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n15",
+            "type": {
+              "$ref": "#rt:n15"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n16"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n16",
+            "type": {
+              "$ref": "#rt:n16"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n17"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n17",
+            "type": {
+              "$ref": "#rt:n17"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n18"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n18",
+            "type": {
+              "$ref": "#rt:n18"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n19"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n19",
+            "type": {
+              "$ref": "#rt:n19"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n20"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n20",
+            "type": {
+              "$ref": "#rt:n20"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n21"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n21",
+            "type": {
+              "$ref": "#rt:n21"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n22"
+            },
+            "properties": []
+          },
+          {
+            "$id": "r:n22",
+            "type": {
+              "$ref": "#rt:n22"
+            },
+            "from": {
+              "$ref": "#n:n0"
+            },
+            "to": {
+              "$ref": "#n:n23"
+            },
+            "properties": []
+          }
+        ]
+      }
+    },
+    "graphSchemaExtensionsRepresentation": {
+      "nodeKeyProperties": [
+        {
+          "node": {
+            "$ref": "#n:n0"
+          },
+          "keyProperty": {
+            "$ref": "#p:1"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n1"
+          },
+          "keyProperty": {
+            "$ref": "#p:2"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n2"
+          },
+          "keyProperty": {
+            "$ref": "#p:3"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n3"
+          },
+          "keyProperty": {
+            "$ref": "#p:4"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n4"
+          },
+          "keyProperty": {
+            "$ref": "#p:5"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n5"
+          },
+          "keyProperty": {
+            "$ref": "#p:6"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n6"
+          },
+          "keyProperty": {
+            "$ref": "#p:7"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n7"
+          },
+          "keyProperty": {
+            "$ref": "#p:8"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n8"
+          },
+          "keyProperty": {
+            "$ref": "#p:9"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n9"
+          },
+          "keyProperty": {
+            "$ref": "#p:10"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n10"
+          },
+          "keyProperty": {
+            "$ref": "#p:11"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n11"
+          },
+          "keyProperty": {
+            "$ref": "#p:12"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n12"
+          },
+          "keyProperty": {
+            "$ref": "#p:13"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n13"
+          },
+          "keyProperty": {
+            "$ref": "#p:14"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n14"
+          },
+          "keyProperty": {
+            "$ref": "#p:15"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n15"
+          },
+          "keyProperty": {
+            "$ref": "#p:16"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n16"
+          },
+          "keyProperty": {
+            "$ref": "#p:17"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n17"
+          },
+          "keyProperty": {
+            "$ref": "#p:18"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n18"
+          },
+          "keyProperty": {
+            "$ref": "#p:19"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n19"
+          },
+          "keyProperty": {
+            "$ref": "#p:20"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n20"
+          },
+          "keyProperty": {
+            "$ref": "#p:21"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n21"
+          },
+          "keyProperty": {
+            "$ref": "#p:22"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n22"
+          },
+          "keyProperty": {
+            "$ref": "#p:23"
+          }
+        },
+        {
+          "node": {
+            "$ref": "#n:n23"
+          },
+          "keyProperty": {
+            "$ref": "#p:24"
+          }
+        }
+      ]
+    },
+    "graphMappingRepresentation": {
+      "dataSourceSchema": {
+        "type": "local/csv",
+        "tableSchemas": [
+          {
+            "$id": "t:1",
+            "name": "spotify-2023.csv",
+            "expanded": true,
+            "fields": [
+              {
+                "name": "track_name",
+                "type": "string",
+                "sample": "Seven (feat. Latto) (Explicit Ver.)",
+                "include": true
+              },
+              {
+                "name": "artist(s)_name",
+                "type": "string",
+                "sample": "Latto, Jung Kook",
+                "include": true
+              },
+              {
+                "name": "artist_count",
+                "type": "integer",
+                "sample": "2",
+                "include": true
+              },
+              {
+                "name": "released_year",
+                "type": "integer",
+                "sample": "2023",
+                "include": true
+              },
+              {
+                "name": "released_month",
+                "type": "integer",
+                "sample": "7",
+                "include": true
+              },
+              {
+                "name": "released_day",
+                "type": "integer",
+                "sample": "14",
+                "include": true
+              },
+              {
+                "name": "in_spotify_playlists",
+                "type": "integer",
+                "sample": "553",
+                "include": true
+              },
+              {
+                "name": "in_spotify_charts",
+                "type": "integer",
+                "sample": "147",
+                "include": true
+              },
+              {
+                "name": "streams",
+                "type": "integer",
+                "sample": "141381703",
+                "include": true
+              },
+              {
+                "name": "in_apple_playlists",
+                "type": "integer",
+                "sample": "43",
+                "include": true
+              },
+              {
+                "name": "in_apple_charts",
+                "type": "integer",
+                "sample": "263",
+                "include": true
+              },
+              {
+                "name": "in_deezer_playlists",
+                "type": "string",
+                "sample": "45",
+                "include": true
+              },
+              {
+                "name": "in_deezer_charts",
+                "type": "integer",
+                "sample": "10",
+                "include": true
+              },
+              {
+                "name": "in_shazam_charts",
+                "type": "string",
+                "sample": "826",
+                "include": true
+              },
+              {
+                "name": "bpm",
+                "type": "integer",
+                "sample": "125",
+                "include": true
+              },
+              {
+                "name": "key",
+                "type": "string",
+                "sample": "B",
+                "include": true
+              },
+              {
+                "name": "mode",
+                "type": "string",
+                "sample": "Major",
+                "include": true
+              },
+              {
+                "name": "danceability_%",
+                "type": "integer",
+                "sample": "80",
+                "include": true
+              },
+              {
+                "name": "valence_%",
+                "type": "integer",
+                "sample": "89",
+                "include": true
+              },
+              {
+                "name": "energy_%",
+                "type": "integer",
+                "sample": "83",
+                "include": true
+              },
+              {
+                "name": "acousticness_%",
+                "type": "integer",
+                "sample": "31",
+                "include": true
+              },
+              {
+                "name": "instrumentalness_%",
+                "type": "integer",
+                "sample": "0",
+                "include": true
+              },
+              {
+                "name": "liveness_%",
+                "type": "integer",
+                "sample": "8",
+                "include": true
+              },
+              {
+                "name": "speechiness_%",
+                "type": "integer",
+                "sample": "4",
+                "include": true
+              }
+            ]
+          }
+        ]
+      },
+      "nodeMappings": [
+        {
+          "node": {
+            "$ref": "#n:n0"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "track_name",
+              "property": {
+                "$ref": "#p:1"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n1"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "artist(s)_name",
+              "property": {
+                "$ref": "#p:2"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n2"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "artist_count",
+              "property": {
+                "$ref": "#p:3"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n3"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "released_year",
+              "property": {
+                "$ref": "#p:4"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n4"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "released_month",
+              "property": {
+                "$ref": "#p:5"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n5"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "released_day",
+              "property": {
+                "$ref": "#p:6"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n6"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "in_spotify_playlists",
+              "property": {
+                "$ref": "#p:7"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n7"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "in_spotify_charts",
+              "property": {
+                "$ref": "#p:8"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n8"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "streams",
+              "property": {
+                "$ref": "#p:9"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n9"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "in_apple_playlists",
+              "property": {
+                "$ref": "#p:10"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n10"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "in_apple_charts",
+              "property": {
+                "$ref": "#p:11"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n11"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "in_deezer_playlists",
+              "property": {
+                "$ref": "#p:12"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n12"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "in_deezer_charts",
+              "property": {
+                "$ref": "#p:13"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n13"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "in_shazam_charts",
+              "property": {
+                "$ref": "#p:14"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n14"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "bpm",
+              "property": {
+                "$ref": "#p:15"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n15"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "key",
+              "property": {
+                "$ref": "#p:16"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n16"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "mode",
+              "property": {
+                "$ref": "#p:17"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n17"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "danceability_%",
+              "property": {
+                "$ref": "#p:18"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n18"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "valence_%",
+              "property": {
+                "$ref": "#p:19"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n19"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "energy_%",
+              "property": {
+                "$ref": "#p:20"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n20"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "acousticness_%",
+              "property": {
+                "$ref": "#p:21"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n21"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "instrumentalness_%",
+              "property": {
+                "$ref": "#p:22"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n22"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "liveness_%",
+              "property": {
+                "$ref": "#p:23"
+              }
+            }
+          ]
+        },
+        {
+          "node": {
+            "$ref": "#n:n23"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [
+            {
+              "fieldName": "speechiness_%",
+              "property": {
+                "$ref": "#p:24"
+              }
+            }
+          ]
+        }
+      ],
+      "relationshipMappings": [
+        {
+          "relationship": {
+            "$ref": "#r:n0"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "artist(s)_name"
+          },
+          "toMapping": {
+            "fieldName": "track_name"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n1"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "artist_count"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n2"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "released_year"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n3"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "released_month"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n4"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "released_day"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n5"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "in_spotify_playlists"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n6"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "in_spotify_charts"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n7"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "streams"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n8"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "in_apple_playlists"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n9"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "in_apple_charts"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n10"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "in_deezer_playlists"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n11"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "in_deezer_charts"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n12"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "in_shazam_charts"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n13"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "bpm"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n14"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "key"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n15"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "mode"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n16"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "danceability_%"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n17"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "valence_%"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n18"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "energy_%"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n19"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "acousticness_%"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n20"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "instrumentalness_%"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n21"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "liveness_%"
+          }
+        },
+        {
+          "relationship": {
+            "$ref": "#r:n22"
+          },
+          "tableSchema": {
+            "$ref": "#t:1"
+          },
+          "propertyMappings": [],
+          "fromMapping": {
+            "fieldName": "track_name"
+          },
+          "toMapping": {
+            "fieldName": "speechiness_%"
+          }
+        }
+      ]
+    },
+    "configurations": {
+      "idsToIgnore": []
+    }
+  }
+}
